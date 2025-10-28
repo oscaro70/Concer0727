@@ -1,4 +1,4 @@
-export default function ClientesAliados() {
+export default function Clientes() {
   return (
     <div className="container my-5">
       {/* Título principal */}
@@ -72,7 +72,7 @@ export default function ClientesAliados() {
         <div className="row justify-content-center g-4">
           <div className="col-md-4">
             <div className="card border-0 shadow-lg p-4 h-100">
-              <i className="bi bi-handshake text-primary fs-1 mb-3"></i>
+              <i className="bi bi-people text-primary fs-1 mb-3"></i>
               <h5 className="fw-bold">Marcas Deportivas</h5>
               <p className="text-muted">
                 Colaboramos con marcas de prestigio como Adidas, Nike y Puma para desarrollar guantes
