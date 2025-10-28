@@ -1,0 +1,65 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main-content {
+  flex: 1;
+}
+ 
+body, table {
+  background-color: #f8f9fa;
+  color: #212529;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: #0d6efd !important;
+}
+
+.navbar .nav-link,
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar .nav-link:hover {
+  color: #fd7e14 !important;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+  background-color: #fd7e14;
+  border-color: #fd7e14;
+}
+
+.btn-accent {
+  background-color: #fd7e14;
+  color: white;
+}
+
+.btn-accent:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+footer {
+  background-color: #0d6efd;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
