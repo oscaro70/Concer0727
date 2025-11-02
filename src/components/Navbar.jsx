@@ -12,7 +12,7 @@ export default function Navbar() {
             height="40"
             className="me-2 rounded-circle"
           />
-          <span className="fw-bold">Mi Empresa</span>
+          <span className="fw-bold">CACU STORE</span>
         </Link>
 
         <button
