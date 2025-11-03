@@ -8,11 +8,18 @@ export default function Contacto() {
         Escríbenos y un asesor de <strong>Global Keeper</strong> se pondrá en contacto contigo.
       </p>
 
-      <form className="mx-auto" style={{ maxWidth: "600px" }}>
+      <form
+        className="mx-auto"
+        style={{ maxWidth: "600px" }}
+        action="mailto:oscar_o_a@hotmail.com"
+        method="post"
+        encType="text/plain"
+      >
         <div className="mb-3">
           <label className="form-label">Nombre completo</label>
           <input
             type="text"
+            name="Nombre"
             className="form-control"
             placeholder="Tu nombre"
             required
@@ -23,6 +30,7 @@ export default function Contacto() {
           <label className="form-label">Correo electrónico</label>
           <input
             type="email"
+            name="Correo"
             className="form-control"
             placeholder="correo@ejemplo.com"
             required
@@ -33,6 +41,7 @@ export default function Contacto() {
           <label className="form-label">País</label>
           <input
             type="text"
+            name="País"
             className="form-control"
             placeholder="Ejemplo: México, España, Argentina..."
           />
@@ -41,6 +50,7 @@ export default function Contacto() {
         <div className="mb-3">
           <label className="form-label">Mensaje</label>
           <textarea
+            name="Mensaje"
             className="form-control"
             rows="4"
             placeholder="Cuéntanos en qué podemos ayudarte"
@@ -56,8 +66,8 @@ export default function Contacto() {
       <div className="text-center mt-5">
         <p className="text-muted">
           También puedes escribirnos directamente a{" "}
-          <a href="mailto:contacto@cacustore.com" className="text-decoration-none">
-            contacto@gcacustore.com
+          <a href="mailto:oscar_o_a@hotmail.com" className="text-decoration-none">
+            oscar_o_a@hotmail.com
           </a>
         </p>
         <p className="text-muted">
