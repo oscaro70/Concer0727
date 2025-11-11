@@ -39,6 +39,8 @@ export default function Navbar() {
             <li className="nav-item"><Link className="nav-link" to="/contacto">Contacto</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/redes">Redes sociales</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/aviso">Aviso de privacidad</Link></li>
+            <li className="nav-item"><a href="https://django-back-7m5v.onrender.com/" className="nav-link"
+                target="_blank" rel="noopener noreferrer">CRUD</a></li>
           </ul>
         </div>
       </div>
